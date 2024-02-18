@@ -61,6 +61,8 @@ nav{
 }
 .img-banner{
   position: absolute;
+  width: 1600px;
+  height: 900px;
 }
 .barra-menu{
   align-items: flex-start;
@@ -118,22 +120,29 @@ section{
   padding: 350px;
 }
 
-.destaque{
-  
+.destaque1{
   display: flex;
   flex-direction: row;
   justify-content:space-between;
   margin-bottom: 150px;
 }
 
-.destaque img{
-  height: 388px;
-  width: 542px;
+.destaque2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 150px;
 }
 
-.destaque-texto{
-
+.destaque1 img{
+  height: 560px;
+  width: 704px;
 }
+.destaque2 img{
+  height: 560px;
+  width: 704px;
+}
+
 
 .destaque-texto p{
   font-weight: 700px;
@@ -143,6 +152,8 @@ section{
   font-family: 'Open Sans', sans-serif;
 }
 .destaque-texto h2{
+  width: 581px;
+  height: 60px;
   font-size: 50px;
   color: var(--preto-coffe);
 }
