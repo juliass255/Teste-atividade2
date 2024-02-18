@@ -143,7 +143,6 @@ section{
   width: 704px;
 }
 
-
 .destaque-texto p{
   font-weight: 700px;
   line-height: 28px;
@@ -259,8 +258,11 @@ section{
 
 .cards{
 display: flex;
-justify-content: space-around;
+flex-direction: row;
+justify-content:space-between;
+
 }
+
 .container-4{
 display: flex;
 flex-direction: column;
